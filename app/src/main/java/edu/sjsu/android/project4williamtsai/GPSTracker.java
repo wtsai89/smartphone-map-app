@@ -19,6 +19,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 
 public class GPSTracker implements OnSuccessListener<Location> {
     private Context context;
+    int p = 9;
 
     public GPSTracker(Context context) {
         this.context = context;
